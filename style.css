@@ -1,0 +1,303 @@
+/*
+A:link{text-decoration:none; color:#80ff00;}
+A:visited{text-decoration:none; color:#80ff00;}
+A:hover{text-decoration:none; color: grey; animation: glitch 175ms}
+
+
+@keyframes glitch {
+    0% { margin-top: -3px; margin-left: -1; color: #80ff00; transform: translateY(-3px) translateX(-1); }
+    25% { margin-top: -6px; margin-left: 0; transform: translateY(-3px) translateX(-1); }
+    33% { margin-top: 2px; margin-left: 2px; color: rgb(0, 183, 255); text-transform: lowercase; transform: translateY(-3px) translateX(-1); }
+    50% { margin-top: 1px; margin-left: 5px; transform: translateY(-3px) translateX(-1); }
+    66% { margin-top: 0px; margin-left: -3px; color: white; text-transform: lowercase; transform: translateY(-3px) translateX(-1); }
+    75% { margin-top: -2px; margin-left: -1px; color: #80ff00; text-transform:uppercase; transform: translateY(-3px) translateX(-1); }
+    100% { margin-top: 9px; margin-left: 0px; color: white; transform: translateY(-3px) translateX(-1); }
+}
+
+.glitch-anim {
+    animation-name: glitch;
+    animation-iteration-count: infinite;
+    animation-duration: 175ms;
+}
+*/
+
+
+
+/*
+@font-face {
+    font-family: 'StarWars  Kit';
+    font-style: normal;
+    font-weight: normal;
+    src: local('StarWars  Kit'), url('StarWars.woff') format('woff');
+}
+
+
+#intro
+{
+    font: size 4px;
+    text-align: center;
+}
+html, body {
+    background-image: url(https://web.archive.org/web/20091025005357im_/http://geocities.com/Pentagon/Quarters/7992/spacebgani.gif);
+    margin:0;
+    padding:0;
+    font-family: 'Inconsolata', monospace;
+    font-size:15px;
+    color: #80ff00;
+}
+.content
+{
+    display: flex;
+    padding: 10px;
+    max-width:1000px;
+    height:80%;
+    margin:auto;
+}
+
+#leftnavigation ul{
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    color: #80ff00;
+    border: 6px solid#80ff00;
+    width:110px;
+    height:100%;
+}
+#leftnavigation{
+    display: block;
+    height: 200px;
+}
+
+
+#box1{
+    display: flex;
+    justify-content:space-between;
+}
+
+.box1-innerbox1
+{
+    margin: 10px;
+    padding: 20px;
+    border: 4px solid#80ff00;
+    width:50%;
+}
+.box1-innerbox2
+{
+    margin: 10px;
+    padding: 20px;
+    border: 4px solid#80ff00;
+    width:50%;
+}
+
+#box2{
+    display: flex;
+    justify-content:space-between;
+}
+
+.box2-innerbox1
+{
+    margin: 10px;
+    padding: 20px;
+    border: 4px solid#80ff00;
+}
+.box2-innerbox2
+{
+    margin: 10px;
+    padding: 20px;
+    border: 4px solid#80ff00;
+}
+
+
+
+
+#title{
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    font-size: 200%;
+}
+#subtitle{
+    text-align: center;
+}
+
+.navigation{
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+.navigation a{
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    text-decoration: none;
+    display:block; 
+    padding: 5px;
+    margin-bottom: 5px;
+    border:5px solid #80ff00;
+    background-color: #80ff003f; 
+    color: #80ff00fd;
+}
+.navigation li { 
+    position: relative; 
+    display:inline-block;    
+}
+.navigation ul{
+    text-align: center;
+    font-size: 100%;
+    padding-bottom:20px;
+}
+
+.article{
+    border: 4px solid#80ff00;
+    padding: 3px;
+    padding-left: 20px;
+}
+.footer {
+    padding: 10px;
+    text-align: center;
+    color: #80ff00;
+    text-align: center;
+    display: block;
+    height: 10%;
+}
+
+*/
+A:link{text-decoration:none; color:white;}
+A:visited{text-decoration:none; color:white;}
+A:hover{text-decoration:none; color: grey; animation: glitch 175ms}
+
+
+@font-face {
+    font-family: 'StarWars  Kit';
+    font-style: normal;
+    font-weight: normal;
+    src: local('StarWars  Kit'), url('StarWars.woff') format('woff');
+}
+
+
+#intro
+{
+    font: size 4px;
+    text-align: center;
+}
+html, body {
+    background-image: url(https://web.archive.org/web/20091025005357im_/http://geocities.com/Pentagon/Quarters/7992/spacebgani.gif);
+    margin:0;
+    padding:0;
+    font-family: 'Inconsolata', monospace;
+    font-size:15px;
+    color: white;
+}
+.content
+{
+    display: flex;
+    padding: 10px;
+    max-width:1000px;
+    height:80%;
+    margin:auto;
+}
+
+#leftnavigation ul{
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    color: white;
+    border: 6px solid white;
+    width:110px;
+    height:100%;
+}
+#leftnavigation{
+    display: block;
+    height: 200px;
+}
+
+
+#box1{
+    display: flex;
+    justify-content:space-between;
+}
+
+.box1-innerbox1
+{
+    margin: 10px;
+    padding: 20px;
+    border: 4px solid white;
+    width:50%;
+}
+.box1-innerbox2
+{
+    margin: 10px;
+    padding: 20px;
+    border: 4px solid white;
+    width:50%;
+}
+
+#box2{
+    display: flex;
+    justify-content:space-between;
+}
+
+.box2-innerbox1
+{
+    margin: 10px;
+    padding: 20px;
+    border: 4px solid white;
+}
+.box2-innerbox2
+{
+    margin: 10px;
+    padding: 20px;
+    border: 4px solid white;
+}
+
+
+
+
+#title{
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    font-size: 200%;
+}
+#subtitle{
+    text-align: center;
+}
+
+.navigation{
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+.navigation a{
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    text-decoration: none;
+    display:block; 
+    padding: 5px;
+    margin-bottom: 5px;
+    border:5px solid white;
+    background-color: #80ff003f; 
+    color: white;
+}
+.navigation li { 
+    position: relative; 
+    display:inline-block;    
+}
+.navigation ul{
+    text-align: center;
+    font-size: 100%;
+    padding-bottom:20px;
+}
+
+.article{
+    border: 4px solid white;
+    padding: 3px;
+    padding-left: 20px;
+}
+.footer {
+    padding: 10px;
+    text-align: center;
+    color: white;
+    text-align: center;
+    display: block;
+    height: 10%;
+}
